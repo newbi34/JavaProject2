@@ -4,6 +4,7 @@ public class App {
         Vehicle v2 = new Vehicle("Fiat", 40, 7);
         Vehicle v3 = new Vehicle("Volvo", 45, 9);
         Vehicle c1 = new Car("KIA", 25, 4, 250);
+        Vehicle b1 = new Bike("GTX", 15, 2, 18);
         System.out.println(v1.returnName());
         System.out.println(v1.returnSpeed());
         System.out.println(v3.returnSpeed());
@@ -14,5 +15,6 @@ public class App {
         System.out.println(v2.passesBy(v3, 1000));
         System.out.println(c1.canDrive(240000));
         System.out.println(c1.canDrive(350000));
+        System.out.println(b1.maxPedalingSpeed());
     }
 }

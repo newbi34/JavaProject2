@@ -44,6 +44,10 @@ public class Vehicle {
     }
 
     public boolean canDrive(double distance) {
-        return true;
+        return false;
+    }
+
+    public double maxPedalingSpeed() {
+        return -1;
     }
 }
