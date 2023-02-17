@@ -13,8 +13,8 @@ public class App {
         System.out.println(v1.drivesDistance(1000));
         System.out.println(v1.passesBy(v3, 1500));
         System.out.println(v2.passesBy(v3, 1000));
-        System.out.println(c1.canDrive(240000));
-        System.out.println(c1.canDrive(350000));
+        System.out.println(c1.canDrive(2400000));
+        System.out.println(c1.canDrive(3500000));
         System.out.println(b1.maxPedalingSpeed());
     }
 }
