@@ -1,7 +1,11 @@
 public class Vehicle {
 
     private String name;
+
+    //Defined in meters/second
     private double speed;
+
+    //Defined in meters/seconds^2
     private double acceleration;
 
     public Vehicle(String name, double speed, double acceleration) {
@@ -22,6 +26,7 @@ public class Vehicle {
         return acceleration;
     }
 
+    //Returns speed after a <time> seconds of accelerating
     public double accelerate(int time) {
         return (speed = speed + acceleration * time);
     }
