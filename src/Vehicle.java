@@ -1,11 +1,7 @@
-public class Vehicle {
+public abstract class Vehicle {
 
     private String name;
-
-    //Defined in meters/second
     private double speed;
-
-    //Defined in meters/seconds^2
     private double acceleration;
 
     public Vehicle(String name, double speed, double acceleration) {
@@ -41,13 +37,5 @@ public class Vehicle {
         } else {
             return String.format("first vehicle will never pass the second one");
         }
-    }
-
-    public boolean canDrive(double distance) {
-        return false;
-    }
-
-    public double maxPedalingSpeed() {
-        return -1;
     }
 }
