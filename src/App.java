@@ -14,6 +14,5 @@ public class App {
         System.out.println(v2.passesBy(v3, 1000));
         System.out.println(c1.canDrive(240000));
         System.out.println(c1.canDrive(350000));
-
     }
 }
